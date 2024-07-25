@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header__top{
+    background-color: #000;
+}
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 44px;
+}
+.lang{
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    outline: none;
+}
+option{
+    color: black;
+}
+.header__btn{
+width: 192px;
+background-color: #F1A900;
+color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+border: none;
+padding: 26px 0;
+}
+.header__item_{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.header__bottom{
+    background-color: #222;
+    padding: 15px 0;
+}
+.header-bottom__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.header-bottom__link{
+color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-decoration: none;
+
+}
+.select{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+font-family: "Inter";
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+}
+.hero{
+    background-image: url("./images/image\ 5\ \(1\).png");
+    width: 100%;
+    height: 797px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.PC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    width: 235px;
+    height: 73px;
+    background-color: #F1A900;
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+margin-top: 200px;
+}
+.console{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 235px;
+    height: 73px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+}
+.RURUPUYU{
+
+    margin-left: 125px;
+    display: flex;
+    align-items: end;
+    align-items: center;
+    justify-content: center;
+        width: 966px;
+        height: 202px;
+        color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+text-align: center;
+
+    background-color: #F1A90054;
+}
+.none{
+    margin-top: 590px;
+    
+}.t{
+    gap: 40px;
+}
+.ota{
+    margin-bottom: 900px;
+    padding-bottom: 900px;   
+}
